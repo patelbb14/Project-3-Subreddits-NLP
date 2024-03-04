@@ -13,7 +13,7 @@ You are a data scientist at Reddit and a co-worker is about to quit their job as
 
 #### Data Dictionary
 
-Used the for source to find subreddits that were text based only. 
+Used the following source to find subreddits that were text based only. 
 https://www.reddit.com/r/AskReddit/comments/cigqig/what_are_some_good_text_based_subreddits_to/?onetap_auto=true
 
 The subreddits chosen were 'UnresolvedMysteries' and 'FanTheories'. Below is the data dictionary of the data that was used for this project.
@@ -36,6 +36,8 @@ You are a data scientist at Reddit and a co-worker is about to quit their job as
 
 In order to classify posts correctly, some initial data cleaning and EDA were done such as dropping null value rows, looking at top 15 words, looking at top 15 bigrams, looking at top 15 trigrams, and doing sentiment analysis on score. NLP parsing was also required before beginning to model using both Count Vectorizer and TFIDF (Term Frequency Inverse Document Frequency) Vectorizer. Six different classification models were tested using various parameter search methods.
 
+
+---
 
 ### Conclusions & Recommendations
 
